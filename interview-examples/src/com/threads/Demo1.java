@@ -1,12 +1,20 @@
 package com.threads;
 
 
+<<<<<<< HEAD
 // This is just a demo
+=======
+
+>>>>>>> 720142a... First Commit
 public class Demo1 {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
+<<<<<<< HEAD
 		Demo1 d = new Demo1();
+=======
+		
+>>>>>>> 720142a... First Commit
 		Result result = new Result();
 		Thread thread =new Thread(new additionJob(result));
 		thread.start();
