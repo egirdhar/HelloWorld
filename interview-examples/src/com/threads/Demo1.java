@@ -1,12 +1,12 @@
 package com.threads;
 
 
-
+// This is just a demo
 public class Demo1 {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		
+		Demo1 d = new Demo1();
 		Result result = new Result();
 		Thread thread =new Thread(new additionJob(result));
 		thread.start();
